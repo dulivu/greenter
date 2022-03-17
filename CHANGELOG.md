@@ -2,6 +2,24 @@
 
 Los cambios notables de cada lanzamiento serán documentados en este archivo.
 
+## Unreleased
+- #175 Inclusión de tag `<Signature>` en guía remisión.
+
+## 4.3.1 - 2021-03-20
+- Corregir lectura de CDR cuando los `namespaces` xml sean diferentes al por defecto.
+- Incluir el detalle de `SoapFault` en forma codificada, ya que puede ser una estructura compleja.
+- Incluir flujo de `CI` para sincronizar monorepo en `dev-master`.
+
+## 4.3.0 - 2021-03-06
+- Incluir validaciones de forma de pago en `greenter/validator`
+- Actualizar versión de paquetes para permitir instalación en PHP 8
+- Eliminar extension php `fileinfo`
+- Actualizar códigos de retorno a la fecha `2021-01-29`
+
+## 4.2.0 - 2021-02-06
+- Agregar forma de Pago según resolución **Nº 000193-2020/SUNAT**
+- Corrección zona horaria Lima en nombres de archivo para Resumen diario y C. de bajas. 
+
 ## 4.1.1 - 2020-11-29
 - Los parámetros para métodos `ConsultCdrService::getStatus` y `ConsultCdrService::getStatusCdr` ahora son de tipado estricto. 
 - Se incluyó un error personalizado cuando el CDR no es encontrado en la respuesta de SUNAT.
